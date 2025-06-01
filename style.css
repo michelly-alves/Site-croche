@@ -82,16 +82,19 @@
   }
   
   footer {
-    background-color: var(--marrom);
+    background-color: var(--marrom-claro);
     color: white;
     text-align: center;
     padding: 1rem;
-    margin-top: 3rem;
-    border-radius: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
   }
   
   footer a {
-    color: var(--rosa-terroso);
+    color: var(--marrom);
     text-decoration: none;
   }
   
